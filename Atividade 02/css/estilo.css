@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: inter;
+}
+.container{
+    /* parte inicial da página, com a imagem de fundo e os textos */
+    width: max-content;
+    position: relative;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 81vh;
+    background-image: url("/imagens/Loki\ 3.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    position: absolute;
+    margin: 100px;
+    top: 5%;
+    left: 0;
+    text-align: center;
+    font-family: inter;
+    font-size: 50px;
+}
+h3{
+    position: absolute;
+    margin: 100px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.subtexto{
+    position: absolute;
+    margin: 100px;
+    top: 18%;
+    left:  0;
+    bottom: 0;
+    text-align: left;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: normal;
+}
+.mais{
+    /*link externo*/
+    position: absolute;
+    margin: 100px;
+    top: 40%;
+    left:  0;
+    text-align: left;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: light;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    /*configuração para o link continuar com a mesma cor depois de clicado*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.personagem{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(15, 15, 15);
+    
+}
+.personagem img{
+    /*configuração para as fotos do personagem ficarem padronizadas*/
+    width: 40%;
+    padding-top: 25px;
+}
+.personagem p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.links{
+    /*configuração para destacar os links externos e o link com imagem*/
+    background-color: rgb(27, 27, 27);
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 15px;
+    margin-top: 20px;
+    color: white;
+}
+.tabela{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+table{
+    /*configuração para a tabela*/
+    width: 20%;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}   

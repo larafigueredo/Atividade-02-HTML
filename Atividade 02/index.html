@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loki</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> <!-- Aqui uma tag semântica -->
+    <section class="container">
+<!-- Aqui é a primeira parte da página, ela tem um call to action que é o saiba mais-->
+        <h1> Loki</h1>
+        <div class="subtexto">O deus da mentira de Tom Hiddleston retorna <br>na segunda temporada de sua aventura através <br> do tempo ao lado de Mobius, Sylvie, Caçadora <br>B15 e vários personagens novos que <br>os fãs  vão amar conhecer!</div>
+        <div class="mais" > <a href="https://ondisneyplus.disney.com/show/loki-season-2"> Saiba mais </a>  </div>
+    </section>
+    
+    </header>
+
+    <nav> <!--Aqui uma tag semântica-->
+    <section class="personagem"> 
+        <!-- Aqui é quase como uma galeria de fotos do personagem para mostrar algumas aparições dele em filmes do mcu-->
+        <h4>Veja algumas aparições do personagem no MCU</h4>
+        <img src="imagens/Young Loki.png" alt="Loki Thor 1">
+        <p> Thor (2011) </p>
+        <img src="imagens/Avengers Loki.png" alt="Loki Avengers">
+        <p> Vingadores (2012) </p>
+        <img src="imagens/Loki dark world.png" alt="Loki Dark World">
+        <p> Thor o mundo sombrio (2013) </p>
+        <a href="https://pt.wikipedia.org/wiki/Thor:_Ragnarok"><img src="imagens/Loki ragnarok.png" class="media-object  img-responsive img-thumbnail"></a>
+        <p> Thor ragnarok (2017) </p>
+        <div class="links"> 
+            <!-- Aqui é a lista com os links pedidos, eu usei uma div para organizá-los -->
+        <ul>
+            <h4>Descubra mais sobre o personagem visitando as páginas abaixo:</h4>
+            <li><a href="https://ondisneyplus.disney.com/show/loki-season-2"> Loki temporada 2 </a></li>
+            <li><a href="https://marvel.fandom.com/pt-br/wiki/Loki_Laufeyson_(Terra-616)"> Wiki do personagem </a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Thor:_Ragnarok"><img src="imagens/Loki ragnarok.png" class="media-object  img-responsive img-thumbnail"></a></li>
+        </div>
+
+    </nav>
+
+        <section class="tabela">
+            <!-- Aqui é a tabela com informações sobre o personagem, com negrito nos elementos de cima para destacá-los -->
+            <table>
+                <tr>
+                    <thead> Aparições de Loki no MCU</thead>
+                    <th> <b> Filme</b></th>
+                    <th> <b> Papel</b></th>
+                    <th> <b> Ano</b></th>
+                </tr>
+                <tr> 
+                    <th> Thor 1</th>
+                    <th> Vilão</th>
+                    <th>2011 </th>
+                </tr>
+                <tr> 
+                <th> Vingadores</th>
+                <th> Vilão</th>
+                <th> 2012</th>
+                </tr>
+                <tr>
+                    <th> Thor 2</th>
+                    <th> Anti heroi</th>
+                    <th> 2013</th>
+                </tr>
+            </table>
+        </section>
+    </section>
+
+    <article> <!-- O artigo com o formulário pedido na atividade 2-->
+        <form action="https://www.w3schools.com/action_page.php" method="get">
+
+            <h2> Cadastre-se para receber novidades sobre a série </h2>
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" maxlength="15"> <br>
+            <br> <label for="ler"> Temporada </label>
+            <input type="text" id="Temporada" name="Temporada" value="Loki s2" readonly> <br>
+            <br> <label for="numeros"> Insira um número entre 25000 e 30000</label>
+            <input type="number" id="numeros" name="numeros" min="25000" max="30000">
+            <input type="submit" value="Enviar"> <br>
+            <br><p> Escolha um gênero </p>
+            <br> <input type="radio" name="genero" value="feminino" > Feminino <br>
+            <input type="radio" name="genero" value="feminino" > Masculino <br>
+            <input type="radio" name="genero" value="Outro" > Outro <br> <br>
+            <input type="submit"> <br>
+            <br> <p> Qual Loki é o seu preferido, o dos filmes ou da série?</p> <br>
+            <input type="checkbox" name="opção 1" value="Filmes"> Filmes <br>
+            <input type="checkbox" name="opção 2" value="Série"> Série <br> <br>
+            <input type="submit">
+        </form>
+
+    </article>
+
+</body>
+</html>
