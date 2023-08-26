@@ -11,7 +11,7 @@
     color: rgb(255, 255, 255);
     width: 100vw;
     height: 81vh;
-    background-image: url("/imagens/Loki\ 3.jpeg");
+    background-image: url("../imagens/Loki\ 3.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
